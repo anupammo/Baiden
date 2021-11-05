@@ -76,7 +76,7 @@
         a.navbar-brand span {
             line-height: 1;
             font-weight: 600;
-            font-size: 1.8em;
+            font-size: 1.4em;
         }
 
         #slide-1 {
@@ -232,6 +232,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-light bg-white">
             <a class="navbar-brand py-0" href="#">
+                <img src="baiden-logo.webp" alt="" style="float: left;">
                 <span class="text-uppercase d-block">Baiden</span>
                 <small>Home Service Network</small>
             </a>
@@ -904,32 +905,33 @@
                             <p class="card-text text-center h3">
                                 <span class="badge badge-light rounded-pill px-3 mb-4">Only</span>
                             </p>
-                            <h5 class="card-title text-center text-white display-1 my-4"><small
+                            <h5 class="card-title text-center text-white display-1"><small
                                     class="display-4">₹</small>50</h5>
-                            <h5 class="card-title text-center text-white mt-5">
-                                Book Baiden Services now
-                            </h5>
+                            <p class="card-title text-center text-white mt-5">
+                                Book Baiden Service with <br />Amazon Pay UPI ID - 7797223983@apl
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="card border-0 shadow">
-                        <form class="card-body">
+                        <form class="card-body my-4">
                             <div class="form-group">
-                                <label>Full name</label>
-                                <input type="text" class="form-control shadow-none rounded-0" required="">
+                                <!-- <label>Full name</label> -->
+                                <input type="text" class="form-control shadow-none rounded-0" required="" placeholder="Full name">
                             </div>
                             <div class="form-group">
-                                <label>Mobile number</label>
-                                <input type="tel" class="form-control shadow-none rounded-0" required="">
+                                <!-- <label>Mobile number</label> -->
+                                <input type="tel" class="form-control shadow-none rounded-0" required="" placeholder="Mobile number">
                             </div>
                             <!-- <div class="form-group">
                                 <label>Email address</label>
                                 <input type="email" class="form-control shadow-none rounded-0" required="">
                             </div> -->
                             <div class="form-group">
-                                <label>Required service</label>
+                                <!-- <label>Required service</label> -->
                                 <select class="form-control shadow-none rounded-0">
+                                    <option selected>Select required service</option>
                                     <option>Plumbing Services</option>
                                     <option>Electrician Services</option>
                                     <option>Painting Services</option>
@@ -942,6 +944,14 @@
                                     <option>Grille Designers</option>
                                     <option>Masonry Services</option>
                                     <option>Fridge/AC/TV Repairing</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label>Have you done payment?</label> -->
+                                <select class="form-control shadow-none rounded-0">
+                                    <option selected>Have you done payment?</option>
+                                    <option>No</option>
+                                    <option>Yes</option>
                                 </select>
                             </div>
                             <button type="submit"
